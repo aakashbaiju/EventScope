@@ -21,6 +21,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/tooplate-artxibition.css">
+
+    <link rel="stylesheet" href="search.css">
 <!--
 
 Tooplate 2125 ArtXibition
@@ -65,7 +67,19 @@ https://www.tooplate.com/view/2125-artxibition
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12i">
+                    <div class="search-box" style="
+                    margin-top: -12px;
+                ">
+                        <div class="row">
+                            <input type="text" id="myInput" placeholder="   Search..." autocomplete="off">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                            
+
+
+                        </div>
+                        <div id="suggestion-box"></div>
+                    </div>
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">Event<em>Scope</em></a>
@@ -364,6 +378,10 @@ https://www.tooplate.com/view/2125-artxibition
         </div>
     </footer>
     
+    <!-- Add this code in the <head> section of your HTML -->
+
+      
+  
 
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
@@ -383,6 +401,7 @@ https://www.tooplate.com/view/2125-artxibition
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
+    <script src="search.js"></script>
 
   </body>
 
